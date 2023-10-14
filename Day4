@@ -1,0 +1,14 @@
+package Day4;
+import java.util.Scanner;
+public class Day4 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner (System.in);
+        System.out.print("masukkan angka = ");
+        int a=sc.nextInt();
+        if(a%2==0){
+            System.out.println(a+" merupakan bilangan genap");
+        }else{
+            System.out.println(a+" merupakan bilangan ganjil");
+        }
+    }
+}
