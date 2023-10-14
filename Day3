@@ -1,0 +1,16 @@
+package day3;
+
+public class Day3 {
+    public static void main(String[] args) {
+        //menampilkan nama
+        String nama="Nanda Novitasari";
+        //menampilkan tipe data integer
+        int umur=21;
+        //menampilkan jenis kelamin
+        char gender='P';
+        System.out.println("nama = "+nama +"\n"+ "umur = "+umur+"\n"+"jenis kelamin : "+gender);
+        
+    }
+   
+}
+
