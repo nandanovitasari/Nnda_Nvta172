@@ -1,0 +1,12 @@
+package Day5;
+import java.util.Scanner;
+public class Day5 {
+    public static void main(String[] args) {
+        int harga=10000;
+        Scanner input=new Scanner(System.in);
+        System.out.print("jumlah barang = ");
+        int jumlah= input.nextInt();
+        int total=harga*jumlah;
+        System.out.println("total belanjaan anda = Rp."+total);
+    }
+}
