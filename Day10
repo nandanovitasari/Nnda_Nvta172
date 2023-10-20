@@ -1,0 +1,14 @@
+package day10;
+public class Day10 {
+    public static void main(String[] args) {
+        for (int i = 1; i < 6; i++) {
+            System.out.println("program ke-"+i);
+        }
+    System.out.println("=======================================================");
+        int a=1;
+        while(a<=5){
+            System.out.println("peruangan -"+a );
+            a++;
+        }
+    }   
+}
