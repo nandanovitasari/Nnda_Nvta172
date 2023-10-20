@@ -1,0 +1,11 @@
+package Day7;
+import java.util.Scanner;
+public class Day7 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Nama :");
+        String nama=sc.nextLine();
+        System.out.println("halo, nama saya "+nama);
+        sc.close();
+    }
+}
