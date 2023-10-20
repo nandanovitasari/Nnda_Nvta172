@@ -1,0 +1,24 @@
+package Day8;
+public class Day8 {
+    public static void main(String[] args) {
+        //operator aritmatika
+        int a=2;
+        int b=3;
+        int hasil=a+b;
+        System.out.println(a+" + "+b+" = "+hasil);
+        //operator penugasan
+        int c=5;
+        c*=5;
+        System.out.println("hasil = "+c);
+        //operator perbandingan
+        int d=5;
+        int e=6;
+        boolean perbandingan=d>e;
+        System.out.println(perbandingan);
+        //operator logika
+        boolean benar=true;
+        boolean salah=false;
+        boolean hasil2=benar&&salah;
+        System.out.println(hasil2);
+    }
+}
